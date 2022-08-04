@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+
+  <body style="text-align: center">
+    <form action="mailto:abdulahwaseem72@gmail.com" method="post">
+      <h2>Contact Me</h2>
+      <div>
+        <label
+          >Name: <input type="text" id="name" name="name" pattern="[A-Za-z]{+}"
+        /></label>
+      </div>
+      <br />
+      <div>
+        <label>Email: <input type="email" name="email" /></label>
+      </div>
+      <br />
+      <div>
+        <label>Birth: <input type="date" name="birth" id="birth" /></label>
+      </div>
+      <br />
+      <!-- <div>
+        <label>
+          password
+          <input
+            type="password"
+            name="password"
+            pattern="[A-Za-z0-9]{5}"
+            required
+          /><br />
+        </label>
+      </div>
+      <br /> -->
+
+      <div>
+        <label
+          >Ph. no :
+          <input
+            type="number"
+            name="phone"
+            id="phone"
+            placeholder="03XX-XXXXXXX"
+        /></label>
+      </div>
+      <br />
+      <div>
+        <label for="message">Your message</label><br />
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      </div>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
